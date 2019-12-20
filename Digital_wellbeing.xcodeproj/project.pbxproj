@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A027C4AA23AD589B00E09785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027C4A923AD589B00E09785 /* AppDelegate.swift */; };
+		A027C4AC23AD589B00E09785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027C4AB23AD589B00E09785 /* SceneDelegate.swift */; };
+		A027C4AE23AD589B00E09785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027C4AD23AD589B00E09785 /* ViewController.swift */; };
+		A027C4B123AD589B00E09785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A027C4AF23AD589B00E09785 /* Main.storyboard */; };
+		A027C4B323AD589C00E09785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A027C4B223AD589C00E09785 /* Assets.xcassets */; };
+		A027C4B623AD589C00E09785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A027C4B423AD589C00E09785 /* LaunchScreen.storyboard */; };
+		A027C4C123AD589C00E09785 /* Digital_wellbeingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027C4C023AD589C00E09785 /* Digital_wellbeingTests.swift */; };
+		A027C4CC23AD589C00E09785 /* Digital_wellbeingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027C4CB23AD589C00E09785 /* Digital_wellbeingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A027C4BD23AD589C00E09785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A027C49E23AD589B00E09785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A027C4A523AD589B00E09785;
+			remoteInfo = Digital_wellbeing;
+		};
+		A027C4C823AD589C00E09785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A027C49E23AD589B00E09785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A027C4A523AD589B00E09785;
+			remoteInfo = Digital_wellbeing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A027C4A623AD589B00E09785 /* Digital_wellbeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digital_wellbeing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027C4A923AD589B00E09785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A027C4AB23AD589B00E09785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A027C4AD23AD589B00E09785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A027C4B023AD589B00E09785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A027C4B223AD589C00E09785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A027C4B523AD589C00E09785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A027C4B723AD589C00E09785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A027C4BC23AD589C00E09785 /* Digital_wellbeingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digital_wellbeingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027C4C023AD589C00E09785 /* Digital_wellbeingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_wellbeingTests.swift; sourceTree = "<group>"; };
+		A027C4C223AD589C00E09785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A027C4C723AD589C00E09785 /* Digital_wellbeingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Digital_wellbeingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A027C4CB23AD589C00E09785 /* Digital_wellbeingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_wellbeingUITests.swift; sourceTree = "<group>"; };
+		A027C4CD23AD589C00E09785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A027C4A323AD589B00E09785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4B923AD589C00E09785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4C423AD589C00E09785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A027C49D23AD589B00E09785 = {
+			isa = PBXGroup;
+			children = (
+				A027C4A823AD589B00E09785 /* Digital_wellbeing */,
+				A027C4BF23AD589C00E09785 /* Digital_wellbeingTests */,
+				A027C4CA23AD589C00E09785 /* Digital_wellbeingUITests */,
+				A027C4A723AD589B00E09785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A027C4A723AD589B00E09785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A027C4A623AD589B00E09785 /* Digital_wellbeing.app */,
+				A027C4BC23AD589C00E09785 /* Digital_wellbeingTests.xctest */,
+				A027C4C723AD589C00E09785 /* Digital_wellbeingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A027C4A823AD589B00E09785 /* Digital_wellbeing */ = {
+			isa = PBXGroup;
+			children = (
+				A027C4A923AD589B00E09785 /* AppDelegate.swift */,
+				A027C4AB23AD589B00E09785 /* SceneDelegate.swift */,
+				A027C4AD23AD589B00E09785 /* ViewController.swift */,
+				A027C4AF23AD589B00E09785 /* Main.storyboard */,
+				A027C4B223AD589C00E09785 /* Assets.xcassets */,
+				A027C4B423AD589C00E09785 /* LaunchScreen.storyboard */,
+				A027C4B723AD589C00E09785 /* Info.plist */,
+			);
+			path = Digital_wellbeing;
+			sourceTree = "<group>";
+		};
+		A027C4BF23AD589C00E09785 /* Digital_wellbeingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A027C4C023AD589C00E09785 /* Digital_wellbeingTests.swift */,
+				A027C4C223AD589C00E09785 /* Info.plist */,
+			);
+			path = Digital_wellbeingTests;
+			sourceTree = "<group>";
+		};
+		A027C4CA23AD589C00E09785 /* Digital_wellbeingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A027C4CB23AD589C00E09785 /* Digital_wellbeingUITests.swift */,
+				A027C4CD23AD589C00E09785 /* Info.plist */,
+			);
+			path = Digital_wellbeingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A027C4A523AD589B00E09785 /* Digital_wellbeing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027C4D023AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeing" */;
+			buildPhases = (
+				A027C4A223AD589B00E09785 /* Sources */,
+				A027C4A323AD589B00E09785 /* Frameworks */,
+				A027C4A423AD589B00E09785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Digital_wellbeing;
+			productName = Digital_wellbeing;
+			productReference = A027C4A623AD589B00E09785 /* Digital_wellbeing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A027C4BB23AD589C00E09785 /* Digital_wellbeingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027C4D323AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeingTests" */;
+			buildPhases = (
+				A027C4B823AD589C00E09785 /* Sources */,
+				A027C4B923AD589C00E09785 /* Frameworks */,
+				A027C4BA23AD589C00E09785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A027C4BE23AD589C00E09785 /* PBXTargetDependency */,
+			);
+			name = Digital_wellbeingTests;
+			productName = Digital_wellbeingTests;
+			productReference = A027C4BC23AD589C00E09785 /* Digital_wellbeingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A027C4C623AD589C00E09785 /* Digital_wellbeingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027C4D623AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeingUITests" */;
+			buildPhases = (
+				A027C4C323AD589C00E09785 /* Sources */,
+				A027C4C423AD589C00E09785 /* Frameworks */,
+				A027C4C523AD589C00E09785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A027C4C923AD589C00E09785 /* PBXTargetDependency */,
+			);
+			name = Digital_wellbeingUITests;
+			productName = Digital_wellbeingUITests;
+			productReference = A027C4C723AD589C00E09785 /* Digital_wellbeingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A027C49E23AD589B00E09785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Eduardo Antonio Terrero Cabrera";
+				TargetAttributes = {
+					A027C4A523AD589B00E09785 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A027C4BB23AD589C00E09785 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A027C4A523AD589B00E09785;
+					};
+					A027C4C623AD589C00E09785 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A027C4A523AD589B00E09785;
+					};
+				};
+			};
+			buildConfigurationList = A027C4A123AD589B00E09785 /* Build configuration list for PBXProject "Digital_wellbeing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A027C49D23AD589B00E09785;
+			productRefGroup = A027C4A723AD589B00E09785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A027C4A523AD589B00E09785 /* Digital_wellbeing */,
+				A027C4BB23AD589C00E09785 /* Digital_wellbeingTests */,
+				A027C4C623AD589C00E09785 /* Digital_wellbeingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A027C4A423AD589B00E09785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027C4B623AD589C00E09785 /* LaunchScreen.storyboard in Resources */,
+				A027C4B323AD589C00E09785 /* Assets.xcassets in Resources */,
+				A027C4B123AD589B00E09785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4BA23AD589C00E09785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4C523AD589C00E09785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A027C4A223AD589B00E09785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027C4AE23AD589B00E09785 /* ViewController.swift in Sources */,
+				A027C4AA23AD589B00E09785 /* AppDelegate.swift in Sources */,
+				A027C4AC23AD589B00E09785 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4B823AD589C00E09785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027C4C123AD589C00E09785 /* Digital_wellbeingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A027C4C323AD589C00E09785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027C4CC23AD589C00E09785 /* Digital_wellbeingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A027C4BE23AD589C00E09785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A027C4A523AD589B00E09785 /* Digital_wellbeing */;
+			targetProxy = A027C4BD23AD589C00E09785 /* PBXContainerItemProxy */;
+		};
+		A027C4C923AD589C00E09785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A027C4A523AD589B00E09785 /* Digital_wellbeing */;
+			targetProxy = A027C4C823AD589C00E09785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A027C4AF23AD589B00E09785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A027C4B023AD589B00E09785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A027C4B423AD589C00E09785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A027C4B523AD589C00E09785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A027C4CE23AD589C00E09785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A027C4CF23AD589C00E09785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A027C4D123AD589C00E09785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A027C4D223AD589C00E09785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A027C4D423AD589C00E09785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital_wellbeing.app/Digital_wellbeing";
+			};
+			name = Debug;
+		};
+		A027C4D523AD589C00E09785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital_wellbeing.app/Digital_wellbeing";
+			};
+			name = Release;
+		};
+		A027C4D723AD589C00E09785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digital_wellbeing;
+			};
+			name = Debug;
+		};
+		A027C4D823AD589C00E09785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Digital_wellbeingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terrero.Digital-wellbeingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Digital_wellbeing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A027C4A123AD589B00E09785 /* Build configuration list for PBXProject "Digital_wellbeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027C4CE23AD589C00E09785 /* Debug */,
+				A027C4CF23AD589C00E09785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027C4D023AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027C4D123AD589C00E09785 /* Debug */,
+				A027C4D223AD589C00E09785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027C4D323AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027C4D423AD589C00E09785 /* Debug */,
+				A027C4D523AD589C00E09785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A027C4D623AD589C00E09785 /* Build configuration list for PBXNativeTarget "Digital_wellbeingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A027C4D723AD589C00E09785 /* Debug */,
+				A027C4D823AD589C00E09785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A027C49E23AD589B00E09785 /* Project object */;
+}
